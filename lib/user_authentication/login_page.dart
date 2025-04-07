@@ -24,25 +24,6 @@ class _LoginPageState extends State<LoginPage> {
   String? role;
   String? userName;
 
-  // @override
-  // void initState() {
-  //   super.initState();
-  //   getUserid();
-  // }
-
-  // Future<void> getUserid() async {
-  //   SharedPreferences prefs = await SharedPreferences.getInstance();
-  //   int? storedUserId = prefs.getInt('userid');
-  //   if (storedUserId != null) {
-  //     setState(() {
-  //       userId = storedUserId; // Assign it to userId variable
-  //     });
-  //     print('Login getUser====== $userId');
-  //   } else {
-  //     showError("User ID not found. Please log in again.");
-  //   }
-  // }
-
   // Added for password visibility toggle
   @override
   void initState() {
